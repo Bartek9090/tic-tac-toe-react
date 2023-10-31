@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/github.io/tic-tac-toe-react/static/css/main.1b8717f2.css",
+    "main.js": "/github.io/tic-tac-toe-react/static/js/main.1b90417e.js",
+    "static/media/bg-pattern-dark.png": "/github.io/tic-tac-toe-react/static/media/bg-pattern-dark.f2c6e30a2a887881a35c.png",
+    "index.html": "/github.io/tic-tac-toe-react/index.html",
+    "main.1b8717f2.css.map": "/github.io/tic-tac-toe-react/static/css/main.1b8717f2.css.map",
+    "main.1b90417e.js.map": "/github.io/tic-tac-toe-react/static/js/main.1b90417e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b8717f2.css",
+    "static/js/main.1b90417e.js"
+  ]
+}
