@@ -119,6 +119,12 @@ h1 {
   text-overflow: ellipsis;
   text-align: center;
 }
+@media (max-width: 600px) {
+  .player-name {
+    width: 70%;
+    font-size: 12px;
+  }
+}
 
 .player input {
   font: inherit;
@@ -133,9 +139,14 @@ h1 {
 }
 
 .player-symbol {
-  margin-left: 1rem;
   font-size: 1rem;
   color: #e1dec7;
+}
+@media (max-width: 600px) {
+  .player-symbol {
+    margin-left: -0.2;
+    font-size: 12px;
+  }
 }
 
 ol {
@@ -177,6 +188,16 @@ ol {
   margin: 0;
   padding: 0;
 }
+@media (max-width: 550px) {
+  #game-board ol {
+    gap: 1.5rem;
+  }
+}
+@media (max-width: 420px) {
+  #game-board ol {
+    gap: 1.2rem;
+  }
+}
 
 #game-board button {
   width: 8rem;
@@ -189,7 +210,18 @@ ol {
   font-family: "Caprasimo", cursive;
   padding: 1rem;
 }
-
+@media (max-width: 550px) {
+  #game-board button {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media (max-width: 420px) {
+  #game-board button {
+    width: 4rem;
+    height: 4rem;
+  }
+}
 #game-over {
   position: absolute;
   top: 0;
