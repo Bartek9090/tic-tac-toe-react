@@ -10,7 +10,7 @@ The purpose of building this project was to acquire and consolidate knowledge co
 This is a simple project that allows you to enter names fdor players, save them and playu a game
 An additional program will show logs for every move.
 ### ScreenShot
-![TicTacToeScreenGH](https://github.com/Bartek9090/tic-tac-toe-react/assets/80546803/cffe358c-acd4-4281-a16c-1d2e8cc3ecd0)
+![TTTforGH](https://github.com/Bartek9090/tic-tac-toe-react/assets/80546803/eec3bd90-0110-4039-8099-a0b73c6e9825)
 
 
 ## Technologies:
