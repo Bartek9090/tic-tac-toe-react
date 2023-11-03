@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import logo from "./assets/game-logo.png";
 import Player from "./components/Player.js";
 import GameBoard from "./components/GameBoard.js";
 import Log from "./components/Log.js";
@@ -100,6 +100,10 @@ function App() {
 
   return (
     <main>
+      <header>
+        <img src={logo} alt="Game Logo" />
+        <h1>Tic-Tac-Toe</h1>
+      </header>
       <div id="game-container">
         <ol id="players" className="highlight-player">
           <Player
