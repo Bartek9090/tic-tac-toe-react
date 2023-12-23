@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Player({
   initialName,
@@ -9,11 +9,18 @@ export default function Player({
   const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
 
+  useEffect(() => {
+    if (!isEditing) {
+      onChangeName(symbol, playerName);
+    }
+  }, [isEditing, onChangeName, playerName, symbol]);
+
   function handleEditClick() {
     setIsEditing((editing) => !editing);
 
-    if (isEditing) {
-      onChangeName(symbol, playerName);
+    // Clear default name when entering edit mode
+    if (!isEditing) {
+      setPlayerName("");
     }
   }
 
@@ -22,13 +29,11 @@ export default function Player({
   }
 
   let editablePlayerName = <span className="player-name">{playerName}</span>;
-  // let btnCaption = 'Edit';
 
   if (isEditing) {
     editablePlayerName = (
       <input type="text" required value={playerName} onChange={handleChange} />
     );
-    // btnCaption = 'Save';
   }
 
   return (
