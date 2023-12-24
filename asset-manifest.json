@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe-react/static/css/main.132d21a1.css",
-    "main.js": "/tic-tac-toe-react/static/js/main.e5f0f98d.js",
+    "main.css": "/tic-tac-toe-react/static/css/main.54fd7bf7.css",
+    "main.js": "/tic-tac-toe-react/static/js/main.a9b52a17.js",
     "static/media/game-logo.png": "/tic-tac-toe-react/static/media/game-logo.8e78fca90221d93a071c.png",
     "static/media/bg-pattern-dark.png": "/tic-tac-toe-react/static/media/bg-pattern-dark.f2c6e30a2a887881a35c.png",
     "index.html": "/tic-tac-toe-react/index.html",
-    "main.132d21a1.css.map": "/tic-tac-toe-react/static/css/main.132d21a1.css.map",
-    "main.e5f0f98d.js.map": "/tic-tac-toe-react/static/js/main.e5f0f98d.js.map"
+    "main.54fd7bf7.css.map": "/tic-tac-toe-react/static/css/main.54fd7bf7.css.map",
+    "main.a9b52a17.js.map": "/tic-tac-toe-react/static/js/main.a9b52a17.js.map"
   },
   "entrypoints": [
-    "static/css/main.132d21a1.css",
-    "static/js/main.e5f0f98d.js"
+    "static/css/main.54fd7bf7.css",
+    "static/js/main.a9b52a17.js"
   ]
 }
